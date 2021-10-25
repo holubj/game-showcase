@@ -20,17 +20,35 @@ This document describes some **technical** aspects of my game that i am currentl
 
 The final animations are created by combining three sources:
 
-#### Facial motion capture using iOS ARKit (all blend shapes supported)
+- Facial motion capture using iOS ARKit (all blend shapes supported)
+- Body motion capture using iOS ARKit
+- Hand motion capture using Leap Motion Controller
 
-![Facial motion capture](https://github.com/holubj/game-showcase/raw/master/assets/faceTracking.gif)
+### Motion capture example
 
-#### Body motion capture using iOS ARKit (before denoising)
+:: [https://www.youtube.com/watch?v=-OjpWVvl-NA](https://www.youtube.com/watch?v=-OjpWVvl-NA)
 
-![Body motion capture](https://github.com/holubj/game-showcase/raw/master/assets/bodyTracking.gif)
+[![](https://github.com/holubj/game-showcase/raw/master/assets/mocap_preview.png)](https://www.youtube.com/watch?v=-OjpWVvl-NA)
 
-#### Hand motion capture using Leap Motion Controller
+## Waypoint system
 
-![Hand motion capture](https://github.com/holubj/game-showcase/raw/master/assets/handTracking.gif)
+:: [https://www.youtube.com/watch?v=ESken0QNntg](https://www.youtube.com/watch?v=ESken0QNntg)
+
+[![](https://github.com/holubj/game-showcase/raw/master/assets/waypoint_preview.png)](https://www.youtube.com/watch?v=ESken0QNntg)
+
+## Inverse kinematics
+
+:: [https://www.youtube.com/watch?v=qRQ-0GmxUkw](https://www.youtube.com/watch?v=qRQ-0GmxUkw)
+
+[![](https://github.com/holubj/game-showcase/raw/master/assets/ik_preview.png)](https://www.youtube.com/watch?v=qRQ-0GmxUkw)
+
+## Lipsync
+
+Realtime text-to-lipsync animation.
+
+:: [https://www.youtube.com/watch?v=w4wTWs60vlg](https://www.youtube.com/watch?v=w4wTWs60vlg)
+
+[![](https://github.com/holubj/game-showcase/raw/master/assets/lipsync_preview.png)](https://www.youtube.com/watch?v=w4wTWs60vlg)
 
 ## Dialogue/Cutscene system
 
@@ -47,6 +65,12 @@ Features:
 - VFX
 - BGM, SFX
 
+### Cutscene example
+
+:: [https://www.youtube.com/watch?v=grADzX0hqrg](https://www.youtube.com/watch?v=grADzX0hqrg)
+
+[![](https://github.com/holubj/game-showcase/raw/master/assets/cutscene_preview.png)](https://www.youtube.com/watch?v=grADzX0hqrg)
+
 ## Desert shader
 
 ### Shader
@@ -60,21 +84,17 @@ Features:
 - Terrain holes
 - Custom lighting
 
-[![](https://github.com/holubj/game-showcase/raw/master/assets/desert2_preview.png)](https://github.com/holubj/game-showcase/raw/master/assets/desert2.png)
+[![](https://github.com/holubj/game-showcase/raw/master/assets/desert_screen_preview.png)](https://github.com/holubj/game-showcase/raw/master/assets/desert_screen.png)
 
-[![](https://github.com/holubj/game-showcase/raw/master/assets/desert1_preview.png)](https://github.com/holubj/game-showcase/raw/master/assets/desert1.png)
+### Tracks
+
+:: [https://www.youtube.com/watch?v=uV2TG4LJiIs](https://www.youtube.com/watch?v=uV2TG4LJiIs)
+
+[![](https://github.com/holubj/game-showcase/raw/master/assets/tracks_preview.png)](https://www.youtube.com/watch?v=uV2TG4LJiIs)
 
 ### Sand waves
 
 ![Sand Waves](https://github.com/holubj/game-showcase/raw/master/assets/desertWaves.gif)
-
-### Tracks
-
-Just a simple transparent circle used in a RenderTexture for now.
-
-:: [https://www.youtube.com/watch?v=-tocd44Rcl8](https://www.youtube.com/watch?v=-tocd44Rcl8)
-
-[![](https://github.com/holubj/game-showcase/raw/master/assets/desert_t_preview.png)](https://www.youtube.com/watch?v=-tocd44Rcl8)
 
 ### Effects
 
@@ -97,6 +117,7 @@ Just a simple transparent circle used in a RenderTexture for now.
   - Substance Painter
   - Substance Designer
   - Procreate
+  - Adobe Photoshop
   - Adobe Illustrator
   - FMOD
   - Logic Pro
